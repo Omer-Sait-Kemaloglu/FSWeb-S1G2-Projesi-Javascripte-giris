@@ -131,8 +131,9 @@ Aşağdaki milDonusturucu fonksiyonunu aşağıdakileri kullanarak tamamla:
 3. Mil değerini geri dönün
 */
 
-function milDonusturucu(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function milDonusturucu(kilometre) {
+  const mil = kilometre * 0.621371;  
+  return mil;  
 }
 
 //Görev 4b - Santimetreden Feet

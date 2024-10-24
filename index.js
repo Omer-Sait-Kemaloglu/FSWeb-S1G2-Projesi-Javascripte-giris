@@ -164,8 +164,16 @@ Aşağıdakileri cocukSarkisi fonksiyonunda yap:
 4. Bu döngüde, her seferinde cocukSarkisi fonsiyonu çalışsın ve console.log'a dönen metni yazdırsın.
 */
 
-function cocukSarkisi(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function cocukSarkisi(sayi) {
+  return `${sayi} küçük maymun yatakta ziplamiş, biri düşüp başini çarpmiş, Anne doktoru aramiş, Doktor çok kizmiş: Bir daha yatakta ziplamak yok!`;
+}
+
+// Döngü ile maymun sayısını her seferinde 1 azaltıp şarkıyı yazdırırız.
+let maymunSayisi = 5;  // Başlangıçtaki maymun sayısı
+
+while (maymunSayisi > 0) {
+  console.log(cocukSarkisi(maymunSayisi));
+  maymunSayisi--;  // Her seferinde maymun sayısını 1 azalt
 }
 
 /* Görev 6 : Not Hesaplayıcı */

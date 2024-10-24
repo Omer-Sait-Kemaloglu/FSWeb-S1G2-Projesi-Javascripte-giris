@@ -183,9 +183,20 @@ Aşağdakileri notHesapla fonksiyonunda yap.
  dönün
 */
 
-function notHesapla(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function notHesapla(puan) {
+  if (puan >= 90 && puan <= 100) {
+    return 'A aldın';
+  } else if (puan >= 80 && puan <= 89) {
+    return 'B aldın';
+  } else if (puan >= 70 && puan <= 79) {
+    return 'C aldın';
+  } else if (puan >= 60 && puan <= 69) {
+    return 'D aldın';
+  } else {
+    return 'F aldın';
+  }
 }
+
 
 /* Bonus Çalışma: Sesli harf sayacı - Kaç tane sesli harf var? */
 
